@@ -11,5 +11,5 @@ This helper library combines the functionality of https://github.com/hamba/avro 
 3. Run `make schema-seed` - this will add a test schema to the schema registry
     1. Check that the new schema has been registered with `make schema-list`.
     2. You can checkout the latest version of this schema via `make schema-get`
-3. An example of how to use can be found in `./schema_example_test.go`
+3. An example of how to use can be found [here](https://github.com/johnmackenzie91/schema-registry-client/blob/master/schema_example_test.go)
     1. To run this example test run `go test -v`
