@@ -1,0 +1,11 @@
+{
+    "schema": "{
+                   \"type\": \"record\",
+                   \"name\": \"test\",
+                   \"namespace\": \"org.vra.test\",
+                   \"fields\" : [
+                       {\"name\": \"id\", \"type\": \"int\"},
+                       {\"name\": \"name\", \"type\": \"string\"}
+                   ]
+               }"
+}
