@@ -13,3 +13,7 @@ This helper library combines the functionality of https://github.com/hamba/avro 
     2. You can checkout the latest version of this schema via `make schema-get`
 3. An example of how to use can be found [here](https://github.com/johnmackenzie91/schema-registry-client/blob/master/schema_example_test.go)
     1. To run this example test run `go test -v`
+    
+  
+## To do
+1. Add caching for schemas returned from `GetLatestSchema` currently it calls out each time.
