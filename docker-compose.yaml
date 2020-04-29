@@ -1,20 +1,5 @@
 version: '2.1'
 services:
-#    schema-example-app:
-#        container_name: schema-example-app
-#        build:
-#            context: .
-#            dockerfile: Dockerfile
-#        volumes:
-#            - ./db.json:/db/db.json
-#        env_file:
-#            - .env
-#        ports:
-#            - "8080:80"
-#        depends_on:
-#            - schema-example-db
-#            - kafka
-#            - schema-example-zookeeper
 
     kafka:
         container_name: schema-example-kafka
